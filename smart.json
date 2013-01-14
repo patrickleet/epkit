@@ -3,5 +3,11 @@
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master"
   },
-  "packages": {}
+  "packages": {
+    "jade-handlebars": {},
+    "stripe": {},
+    "sugar": {},
+    "router": {},
+    "H5F": {}
+  }
 }
