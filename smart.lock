@@ -1,0 +1,48 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "master",
+    "commit": "4d98d8cb4e5a95e9e98953f44c872c9332a042a3"
+  },
+  "dependencies": {
+    "basePackages": {
+      "jade-handlebars": {},
+      "stripe": {},
+      "sugar": {},
+      "router": {},
+      "H5F": {}
+    },
+    "packages": {
+      "jade-handlebars": {
+        "git": "https://github.com/SimonDegraeve/meteor-jade-handlebars.git",
+        "tag": "v0.2.2",
+        "commit": "e5ea451cc554748f1a0050219ac66e3a1bb204fc"
+      },
+      "stripe": {
+        "git": "https://github.com/appleifreak/stripe-meteor.git",
+        "tag": "v1.0.0",
+        "commit": "152de8922a7e0f3d1d131ef457d566f8654c0743"
+      },
+      "sugar": {
+        "git": "https://github.com/bevanhunt/meteor-sugar.git",
+        "tag": "v0.0.9",
+        "commit": "751a4465e0a7d7e4e800e794ca1e6a449e15e63d"
+      },
+      "router": {
+        "git": "https://github.com/tmeasday/meteor-router.git",
+        "tag": "v0.3.4",
+        "commit": "8f0d5303de5b93771e91f21f818be27358c2fb30"
+      },
+      "H5F": {
+        "git": "https://github.com/rithis/meteor-H5F",
+        "tag": "v1.0.0",
+        "commit": "7512a04f07b6f87233ace0b0fc094a6b3fa9192a"
+      },
+      "page-js": {
+        "git": "https://github.com/tmeasday/meteor-page-js.git",
+        "tag": "v1.3.1",
+        "commit": "ee0b651869928abe50b5d06d7f32ccd2e657883a"
+      }
+    }
+  }
+}
