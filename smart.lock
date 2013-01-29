@@ -9,8 +9,8 @@
       "stripe": {},
       "sugar": {},
       "router": {},
-      "H5F": {},
-      "jade-handlebars": {}
+      "jade-handlebars": {},
+      "mini-pages": {}
     },
     "packages": {
       "stripe": {
@@ -28,15 +28,15 @@
         "tag": "v0.3.4",
         "commit": "8f0d5303de5b93771e91f21f818be27358c2fb30"
       },
-      "H5F": {
-        "git": "https://github.com/rithis/meteor-H5F",
-        "tag": "v1.0.0",
-        "commit": "7512a04f07b6f87233ace0b0fc094a6b3fa9192a"
-      },
       "jade-handlebars": {
         "git": "https://github.com/SimonDegraeve/meteor-jade-handlebars.git",
         "tag": "v0.2.7",
         "commit": "82f6f9ac43a68ffabe1d9b9620be2a4ca6790b56"
+      },
+      "mini-pages": {
+        "git": "https://github.com/cmather/meteor-mini-pages.git",
+        "tag": "v0.2.3",
+        "commit": "dcf77ccca21508a1eb8bec3943bf610b2b8077b5"
       },
       "page-js": {
         "git": "https://github.com/tmeasday/meteor-page-js.git",

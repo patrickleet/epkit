@@ -7,7 +7,7 @@
     "stripe": {},
     "sugar": {},
     "router": {},
-    "H5F": {},
-    "jade-handlebars": {}
+    "jade-handlebars": {},
+    "mini-pages": {}
   }
 }
