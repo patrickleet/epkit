@@ -9,8 +9,9 @@ preserve-inputs
 jade-handlebars
 stripe
 sugar
-router
-H5F
 coffeescript
 bootstrap
 less
+accounts-ui
+accounts-password
+accounts-facebook

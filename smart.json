@@ -4,10 +4,10 @@
     "branch": "master"
   },
   "packages": {
-    "jade-handlebars": {},
     "stripe": {},
     "sugar": {},
     "router": {},
-    "H5F": {}
+    "H5F": {},
+    "jade-handlebars": {}
   }
 }
