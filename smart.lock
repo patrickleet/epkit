@@ -1,16 +1,17 @@
 {
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
-    "branch": "master",
-    "commit": "4d98d8cb4e5a95e9e98953f44c872c9332a042a3"
+    "branch": "devel",
+    "commit": "420e50996b02a12a8341e8717ee4aaaee9c6ea3a"
   },
   "dependencies": {
     "basePackages": {
       "stripe": {},
       "sugar": {},
       "router": {},
+      "mini-pages": {},
       "jade-handlebars": {},
-      "mini-pages": {}
+      "filepicker": {}
     },
     "packages": {
       "stripe": {
@@ -28,15 +29,20 @@
         "tag": "v0.3.4",
         "commit": "8f0d5303de5b93771e91f21f818be27358c2fb30"
       },
+      "mini-pages": {
+        "git": "https://github.com/cmather/meteor-mini-pages.git",
+        "tag": "v0.2.3",
+        "commit": "dcf77ccca21508a1eb8bec3943bf610b2b8077b5"
+      },
       "jade-handlebars": {
         "git": "https://github.com/SimonDegraeve/meteor-jade-handlebars.git",
         "tag": "v0.2.7",
         "commit": "82f6f9ac43a68ffabe1d9b9620be2a4ca6790b56"
       },
-      "mini-pages": {
-        "git": "https://github.com/cmather/meteor-mini-pages.git",
-        "tag": "v0.2.3",
-        "commit": "dcf77ccca21508a1eb8bec3943bf610b2b8077b5"
+      "filepicker": {
+        "git": "https://github.com/Filepicker/meteor.git",
+        "tag": "v0.2.0",
+        "commit": "1ae688ad1abfbe6777c465e11a0d5287ad9e4d4a"
       },
       "page-js": {
         "git": "https://github.com/tmeasday/meteor-page-js.git",
