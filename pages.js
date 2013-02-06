@@ -24,7 +24,7 @@ if (Meteor.isClient) {
   });
 
   function isAuthorized () {
-    return Session.get("loggedin");
+    return Meteor.user()
   }
 
   function setPost (context, page) {
