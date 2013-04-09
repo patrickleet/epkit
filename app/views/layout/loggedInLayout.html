@@ -1,0 +1,23 @@
+<template name="loggedInLayout">
+    <div class="page-container authorized">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="brand" href="{{rootPath}}">Epkit</a>
+                <ul class="nav">
+                    <li class="{{navClassFor 'home'}}"><a href="{{postIndexPath}}">Home</a></li>
+                    <li class="{{navClassFor 'secret'}}"><a href="{{secretPath}}">Secret</a></li>
+                    <li><a href="/boguspath">Bogus Path</a></li>
+                </ul>
+                <div class="login pull-right">
+                    {{loginButtons align="right"}}
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="page">
+                {{{yield}}}
+            </div>
+        </div>
+    </div>
+</template>

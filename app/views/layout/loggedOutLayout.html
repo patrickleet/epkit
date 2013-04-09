@@ -1,0 +1,23 @@
+<template name="loggedOutLayout">
+    <div class="page-container">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="brand" href="{{rootPath}}">Epkit</a>
+                <ul class="nav">
+                    <li class="{{navClassFor 'about'}}"><a href="{{aboutPath}}">About</a></li>
+                    <li class="{{navClassFor 'pricing'}}"><a href="{{pricingPath}}">Pricing</a></li>
+                    <li class="{{navClassFor 'contact'}}"><a href="{{contactPath}}">Contact</a></li>
+                </ul>
+                <div class="login pull-right">
+                    {{loginButtons align="right"}}
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="page">
+                {{{yield}}}
+            </div>
+        </div>
+    </div>
+</template>

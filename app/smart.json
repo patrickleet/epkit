@@ -1,0 +1,14 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "devel"
+  },
+  "packages": {
+    "stripe": {},
+    "sugar": {},
+    "router": {},
+    "mini-pages": {},
+    "filepicker": {},
+    "roles": {}
+  }
+}
