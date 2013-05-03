@@ -1,0 +1,3 @@
+[submodule "epkit-style"]
+	path = epkit-style
+	url = git@github.com:patrickleet/epkit-style.git
