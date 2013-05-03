@@ -1,0 +1,4 @@
+(function(){ Meteor._def_template("notifications",Handlebars.json_ast_to_func(["<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n    Notifications\n    ",["#",[[0,"if"],[0,"notificationCount"]],["\n      <span class=\"badge badge-inverse\">",["{",[[0,"notificationCount"]]],"</span>\n    "]],"\n    <b class=\"caret\"></b>\n  </a>\n  <ul class=\"notification dropdown-menu\">\n    ",["#",[[0,"if"],[0,"notificationCount"]],["\n      ",["#",[[0,"each"],[0,"notifications"]],["\n        ",[">","notification"],"\n      "]],"\n    "],["\n      <li><span>No Notifications</span></li>\n    "]],"\n  </ul>"]));
+Meteor._def_template("notification",Handlebars.json_ast_to_func(["<li>\n    <a href=\"",["{",[[0,"postPagePath"],[0,"postId"]]],"\">\n      <strong>",["{",[[0,"commenterName"]]],"</strong> commented on your post\n    </a>\n  </li>"]));
+
+})();
