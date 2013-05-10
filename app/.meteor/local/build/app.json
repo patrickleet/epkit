@@ -67,6 +67,51 @@
   ],
   "manifest": [
     {
+      "path": "static/client/font/fontawesome-webfont.eot",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/client/font/fontawesome-webfont.eot",
+      "size": 25395,
+      "hash": "c13c3982e5ee27352a43d9c36cff710c408e92eb"
+    },
+    {
+      "path": "static/client/font/fontawesome-webfont.svg",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/client/font/fontawesome-webfont.svg",
+      "size": 138488,
+      "hash": "b4fb88f37b50e10fdcff849d236123500242dd6a"
+    },
+    {
+      "path": "static/client/font/fontawesome-webfont.ttf",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/client/font/fontawesome-webfont.ttf",
+      "size": 55096,
+      "hash": "feaeb2059df1152b61b26755f7b2a4f36e25894f"
+    },
+    {
+      "path": "static/client/font/fontawesome-webfont.woff",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/client/font/fontawesome-webfont.woff",
+      "size": 29380,
+      "hash": "1f0bdc58aa59ab954ce78a94e4d0ea94ab436554"
+    },
+    {
+      "path": "static/client/font/FontAwesome.otf",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/client/font/FontAwesome.otf",
+      "size": 48748,
+      "hash": "c178dfa03582fbcc74bae98b49b528c93b27e945"
+    },
+    {
       "path": "static_cacheable/packages/underscore/underscore.js",
       "where": "client",
       "type": "js",
@@ -958,6 +1003,15 @@
       "hash": "bfc7d832a2030d15304f0ec5d4d98f83f8a13576"
     },
     {
+      "path": "static_cacheable/client/views/users/template.accounts_admin_ui_user.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/users/template.accounts_admin_ui_user.js?5a84b80e2b3d39288b45d250e121edfe42b0c710",
+      "size": 342,
+      "hash": "5a84b80e2b3d39288b45d250e121edfe42b0c710"
+    },
+    {
       "path": "static_cacheable/client/template.main.js",
       "where": "client",
       "type": "js",
@@ -1070,9 +1124,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/helpers/config.js?04195fef076f354c4d1729cad0106c4b05fe717b",
-      "size": 121,
-      "hash": "04195fef076f354c4d1729cad0106c4b05fe717b"
+      "url": "/client/helpers/config.js?b712dbe482b1bac9f24cb75a8bcc7f14afd24c9e",
+      "size": 92,
+      "hash": "b712dbe482b1bac9f24cb75a8bcc7f14afd24c9e"
     },
     {
       "path": "static_cacheable/client/helpers/errors.js",
@@ -1097,9 +1151,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/helpers/router.js?89184bb7466c73bd2fa76f09d9725d9cdc52430e",
-      "size": 790,
-      "hash": "89184bb7466c73bd2fa76f09d9725d9cdc52430e"
+      "url": "/client/helpers/router.js?a1a6837e519966deb4bdef82b9f9f09945b3b153",
+      "size": 814,
+      "hash": "a1a6837e519966deb4bdef82b9f9f09945b3b153"
     },
     {
       "path": "static_cacheable/collections/comments.js",
@@ -1212,7 +1266,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "86aa58051c7d5e3364056fda8df10ba3d92b7ab2"
+      "hash": "3d92905552bd5e903c80405996e7e06adab0092f"
     }
   ]
 }

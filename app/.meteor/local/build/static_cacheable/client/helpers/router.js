@@ -3,7 +3,7 @@
   '/best': 'bestPosts',
   '/new': 'newPosts',
 
-  '/admin': 'admin',
+  '/admin': {to: 'adminusers', as: 'admin'},
   
   '/posts/:_id': {
     to: 'postPage', 

@@ -3,7 +3,7 @@ if (Meteor.users.find().count() == 0) {
     {
       name: "Patrick Scott",
       email:"patrick.lee.scott@gmail.com",
-      roles:['admin']
+      roles:['admin', 'user-admin']
     },
     {
       name: "Krish Jargidar",
@@ -13,6 +13,8 @@ if (Meteor.users.find().count() == 0) {
 
   _.each(users, function (user) {
     var id;
+
+    createUserAdminRoles();
 
     id = Accounts.createUser({
       email: user.email,

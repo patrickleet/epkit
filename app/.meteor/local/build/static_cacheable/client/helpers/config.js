@@ -1,8 +1,4 @@
-(function(){ if (Meteor.isServer()) {
-
-}
-
-Accounts.ui.config({
+(function(){ Accounts.ui.config({
   passwordSignupFields: 'EMAIL_ONLY'
 });
 
