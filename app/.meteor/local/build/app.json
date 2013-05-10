@@ -60,6 +60,7 @@
     "app/collections/comments.js",
     "app/collections/notifications.js",
     "app/collections/posts.js",
+    "app/server/accountEnrollment.js",
     "app/server/accounts.js",
     "app/server/fixtures.js",
     "app/server/publications.js"
@@ -1069,9 +1070,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/helpers/config.js?447669badf20b1b2b20c0e471ccb5a3e7e20d16d",
-      "size": 90,
-      "hash": "447669badf20b1b2b20c0e471ccb5a3e7e20d16d"
+      "url": "/client/helpers/config.js?04195fef076f354c4d1729cad0106c4b05fe717b",
+      "size": 121,
+      "hash": "04195fef076f354c4d1729cad0106c4b05fe717b"
     },
     {
       "path": "static_cacheable/client/helpers/errors.js",
@@ -1211,7 +1212,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "80477dc9706c45c68e39a65acbda35eabe3c5b02"
+      "hash": "86aa58051c7d5e3364056fda8df10ba3d92b7ab2"
     }
   ]
 }
