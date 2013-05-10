@@ -46,6 +46,10 @@
     "app/packages/accounts-password/email_templates.js",
     "app/packages/accounts-password/password_server.js",
     "app/packages/accounts-password/password_common.js",
+    "app/packages/appcache/appcache-server.js",
+    "app/packages/accounts-admin-ui/common/user-helpers.js",
+    "app/packages/accounts-admin-ui/common/useradmin-collections.js",
+    "app/packages/accounts-admin-ui/methods/adminusermethods.js",
     "app/lib/permissions.js",
     "app/collections/comments.js",
     "app/collections/notifications.js",
@@ -433,15 +437,6 @@
       "hash": "d3eb05209dd75bc691c9a5ab533a0f354b8e0415"
     },
     {
-      "path": "static_cacheable/packages/bootstrap-updated/js/bootstrap.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/bootstrap-updated/js/bootstrap.js?323d885ae35ca2f2f2071d42d02b644eceaf3fc8",
-      "size": 56498,
-      "hash": "323d885ae35ca2f2f2071d42d02b644eceaf3fc8"
-    },
-    {
       "path": "static_cacheable/packages/page-js-ie-support/page-js/index.js",
       "where": "client",
       "type": "js",
@@ -694,6 +689,114 @@
       "hash": "613f1e313c5c7b871c54787c0d9cd16301ec09fb"
     },
     {
+      "path": "static_cacheable/packages/appcache/appcache-client.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/appcache/appcache-client.js?0f17ed23ddebab0d2bcf473e438844997bda7924",
+      "size": 1767,
+      "hash": "0f17ed23ddebab0d2bcf473e438844997bda7924"
+    },
+    {
+      "path": "static_cacheable/packages/bootstrap/js/bootstrap.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/bootstrap/js/bootstrap.js?41942ed5e0a9b224fe2804f0fd1cd8ca2601a13c",
+      "size": 61528,
+      "hash": "41942ed5e0a9b224fe2804f0fd1cd8ca2601a13c"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/common/user-helpers.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/common/user-helpers.js?bf17a7aa9ca2531b7cc0b0a9909048e84fdbf261",
+      "size": 1219,
+      "hash": "bf17a7aa9ca2531b7cc0b0a9909048e84fdbf261"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/common/useradmin-collections.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/common/useradmin-collections.js?cba87b764bcf4690ab92169a509229c1eacdd000",
+      "size": 1130,
+      "hash": "cba87b764bcf4690ab92169a509229c1eacdd000"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/template.deleteuser.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/dialogs/template.deleteuser.js?d207c95c7032da1e9a9477654e8d93c4d900e864",
+      "size": 590,
+      "hash": "d207c95c7032da1e9a9477654e8d93c4d900e864"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/deleteuser.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/dialogs/deleteuser.js?32ced3c540753fad451e1c15d916a2f775b678f3",
+      "size": 1229,
+      "hash": "32ced3c540753fad451e1c15d916a2f775b678f3"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/template.edituser.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/dialogs/template.edituser.js?9a9c79f855adfedeefb9ddc34c162e8b3fd2493d",
+      "size": 1304,
+      "hash": "9a9c79f855adfedeefb9ddc34c162e8b3fd2493d"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/edituser.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/dialogs/edituser.js?d1e9a5e5cb75eaba6a840374bc71e559ff008887",
+      "size": 2100,
+      "hash": "d1e9a5e5cb75eaba6a840374bc71e559ff008887"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/template.infouser.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/dialogs/template.infouser.js?10142841c3319708533c74f9e51c01f851bc4778",
+      "size": 929,
+      "hash": "10142841c3319708533c74f9e51c01f851bc4778"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/infouser.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/dialogs/infouser.js?911712e2087a7b9ebc49ad3fcd281b08136eb55b",
+      "size": 846,
+      "hash": "911712e2087a7b9ebc49ad3fcd281b08136eb55b"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/templates/template.adminusers.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/templates/template.adminusers.js?6162ccfac3709837bd022315ad462fcca407f6f3",
+      "size": 1870,
+      "hash": "6162ccfac3709837bd022315ad462fcca407f6f3"
+    },
+    {
+      "path": "static_cacheable/packages/accounts-admin-ui/templates/adminusers.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-admin-ui/templates/adminusers.js?fd28eddbf1dd1c5f28717d936525d0de52017c27",
+      "size": 2749,
+      "hash": "fd28eddbf1dd1c5f28717d936525d0de52017c27"
+    },
+    {
       "path": "static_cacheable/client/views/comments/template.comment.js",
       "where": "client",
       "type": "js",
@@ -734,9 +837,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/includes/template.header.js?2062e56024bbdb97121e4a0fe210b104cad04068",
-      "size": 948,
-      "hash": "2062e56024bbdb97121e4a0fe210b104cad04068"
+      "url": "/client/views/includes/template.header.js?d9d2a52ecb9f58c8e6ab6586313479af86212c49",
+      "size": 954,
+      "hash": "d9d2a52ecb9f58c8e6ab6586313479af86212c49"
     },
     {
       "path": "static_cacheable/client/views/includes/template.loading.js",
@@ -982,33 +1085,6 @@
       "hash": "e67074579f211a590ec8905b7da1816f68dc0ee1"
     },
     {
-      "path": "static_cacheable/packages/bootstrap-updated/css/bootstrap.css",
-      "where": "client",
-      "type": "css",
-      "cacheable": true,
-      "url": "/packages/bootstrap-updated/css/bootstrap.css?adf64530fc49042e210037edf894513492cfc23e",
-      "size": 121663,
-      "hash": "adf64530fc49042e210037edf894513492cfc23e"
-    },
-    {
-      "path": "static_cacheable/packages/bootstrap-updated/css/bootstrap-responsive.css",
-      "where": "client",
-      "type": "css",
-      "cacheable": true,
-      "url": "/packages/bootstrap-updated/css/bootstrap-responsive.css?0eb8d05ea7e17a71da9fe508fc0f0751ddb5283e",
-      "size": 21709,
-      "hash": "0eb8d05ea7e17a71da9fe508fc0f0751ddb5283e"
-    },
-    {
-      "path": "static_cacheable/packages/bootstrap-updated/css/bootstrap-override.css",
-      "where": "client",
-      "type": "css",
-      "cacheable": true,
-      "url": "/packages/bootstrap-updated/css/bootstrap-override.css?26cffb95b5632a7ba0812df9a99b5283bdf8930b",
-      "size": 1088,
-      "hash": "26cffb95b5632a7ba0812df9a99b5283bdf8930b"
-    },
-    {
       "path": "static_cacheable/packages/accounts-ui-bootstrap-dropdown/login_buttons_images.css",
       "where": "client",
       "type": "css",
@@ -1016,6 +1092,42 @@
       "url": "/packages/accounts-ui-bootstrap-dropdown/login_buttons_images.css?9f29802ea43b83a35ba6096af5e501ef4f81287f",
       "size": 4717,
       "hash": "9f29802ea43b83a35ba6096af5e501ef4f81287f"
+    },
+    {
+      "path": "static_cacheable/packages/bootstrap/css/bootstrap.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/packages/bootstrap/css/bootstrap.css?e5976308949024b827360231c67b6f50ee1cf8c5",
+      "size": 127247,
+      "hash": "e5976308949024b827360231c67b6f50ee1cf8c5"
+    },
+    {
+      "path": "static_cacheable/packages/bootstrap/css/bootstrap-responsive.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/packages/bootstrap/css/bootstrap-responsive.css?b66c9c5bfb9556bf343298e3fe6e49c39db8c222",
+      "size": 22111,
+      "hash": "b66c9c5bfb9556bf343298e3fe6e49c39db8c222"
+    },
+    {
+      "path": "static_cacheable/packages/bootstrap/css/bootstrap-override.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/packages/bootstrap/css/bootstrap-override.css?15fa5b55da5c16ed92ffe0c85c0d6aa0867b9c7f",
+      "size": 1550,
+      "hash": "15fa5b55da5c16ed92ffe0c85c0d6aa0867b9c7f"
+    },
+    {
+      "path": "static_cacheable/client/stylesheets/epkit-bootstrap.less.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/client/stylesheets/epkit-bootstrap.less.css?fe34c46bf055a54c95f01fcfc498022cc802531b",
+      "size": 142359,
+      "hash": "fe34c46bf055a54c95f01fcfc498022cc802531b"
     },
     {
       "path": "static_cacheable/client/stylesheets/style.css",
@@ -1027,27 +1139,27 @@
       "hash": "71fffcf7c06b882047ffbe5ab00e7f3993291dc9"
     },
     {
-      "path": "static/packages/bootstrap-updated/img/glyphicons-halflings.png",
+      "path": "static/packages/bootstrap/img/glyphicons-halflings.png",
       "where": "client",
       "type": "static",
       "cacheable": false,
-      "url": "/packages/bootstrap-updated/img/glyphicons-halflings.png",
+      "url": "/packages/bootstrap/img/glyphicons-halflings.png",
       "size": 12799,
       "hash": "84f613631b07d4fe22acbab50e551c0fe04bd78b"
     },
     {
-      "path": "static/packages/bootstrap-updated/img/glyphicons-halflings-white.png",
+      "path": "static/packages/bootstrap/img/glyphicons-halflings-white.png",
       "where": "client",
       "type": "static",
       "cacheable": false,
-      "url": "/packages/bootstrap-updated/img/glyphicons-halflings-white.png",
+      "url": "/packages/bootstrap/img/glyphicons-halflings-white.png",
       "size": 8777,
       "hash": "a25c4705320fd63c33790e666872910e702b9bf6"
     },
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "6f4f8094ef140b225d906730bd2484eff5b48a38"
+      "hash": "0ec57485bb2d6f0d4f1f68e557c93699a80878cf"
     }
   ]
 }

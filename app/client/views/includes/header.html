@@ -6,17 +6,17 @@
         <li class="{{activeRouteClass 'home' 'newPosts'}}">
           <a href="{{homePath}}">New</a>
         </li>
-        <li class="{{activeRouteClass  'bestPosts'}}">
+        <li class="{{activeRouteClass 'bestPosts'}}">
           <a href="{{bestPostsPath}}">Best</a>
         </li>
         {{#if currentUser}}
           <li class="{{activeRouteClass 'postSubmit'}}">
             <a href="/submit">Submit Post</a>
           </li>
+          <li class="dropdown">
+            {{> notifications}}
+          </li>
         {{/if}}
-        <li class="dropdown">
-          {{> notifications}}
-        </li>
       </ul>
       <ul class="nav pull-right">
         <li>{{loginButtons}}</li>

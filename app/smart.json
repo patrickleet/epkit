@@ -8,6 +8,7 @@
     "router": {},
     "accounts-ui-bootstrap-dropdown": {},
     "spin": {},
-    "paginated-subscription": {}
+    "paginated-subscription": {},
+    "accounts-admin-ui": {}
   }
 }

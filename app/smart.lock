@@ -2,7 +2,7 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "cab491f3650fffc85661bca6b3cecf583410e05d"
+    "commit": "bfe4b72ebec4367eaddcdf0887fcf5e649d9dcb8"
   },
   "dependencies": {
     "basePackages": {
@@ -10,7 +10,8 @@
       "router": {},
       "accounts-ui-bootstrap-dropdown": {},
       "spin": {},
-      "paginated-subscription": {}
+      "paginated-subscription": {},
+      "accounts-admin-ui": {}
     },
     "packages": {
       "bootstrap-updated": {
@@ -20,8 +21,8 @@
       },
       "router": {
         "git": "https://github.com/tmeasday/meteor-router.git",
-        "tag": "v0.5.0",
-        "commit": "b1ee74c816d1fc63b713139158075feb8a0c6d26"
+        "tag": "v0.5.1",
+        "commit": "32e377c7703bb119acccc859fc7296882903cbe7"
       },
       "accounts-ui-bootstrap-dropdown": {
         "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
@@ -29,19 +30,39 @@
         "commit": "e66558aaa4dc0d85c6ddb63bd2289b38c2b793f6"
       },
       "spin": {
-        "git": "https://github.com/sachag/meteor-spin.git",
-        "tag": "v0.1.0",
-        "commit": "20fc543866f9271f80006cbed31e4ccbadf29838"
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.1.6",
+        "commit": "f6d21fabd6bbcdeff81fdee4e09129a63434a703"
       },
       "paginated-subscription": {
         "git": "https://github.com/tmeasday/meteor-paginated-subscription.git",
         "tag": "v0.1.1",
         "commit": "1ba670364ddac149f404158407b2afc89db42ce5"
       },
+      "accounts-admin-ui": {
+        "git": "https://github.com/kenyee/meteor-accounts-admin-ui.git",
+        "tag": "v1.0.0",
+        "commit": "5aa3a735beea628fe482194d9fa871222485226b"
+      },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
         "tag": "v1.3.5",
         "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
+      },
+      "jquery-ui": {
+        "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",
+        "tag": "v1.9.2",
+        "commit": "c437d45edcf1367df8d5ffa8bad2867758030bd2"
+      },
+      "jqbootstrapvalidation": {
+        "git": "https://github.com/nate-strauser/meteor-jqbootstrapvalidation.git",
+        "tag": "v0.1.0",
+        "commit": "2af4625d41a9b24311544a53790f14fa38c27b10"
+      },
+      "roles": {
+        "git": "https://github.com/alanning/meteor-roles.git",
+        "tag": "v1.0.4",
+        "commit": "22deeecc57d68fc8c0a3342a6dfebc93d1548f39"
       }
     }
   }
