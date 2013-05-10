@@ -8,7 +8,7 @@ if (Meteor.users.find().count() == 0) {
     {
       name: "Krish Jargidar",
       email:"krishjargidar@gmail.com",
-      roles:['admin']}
+      roles:['user']}
   ];
 
   _.each(users, function (user) {
@@ -16,13 +16,16 @@ if (Meteor.users.find().count() == 0) {
 
     id = Accounts.createUser({
       email: user.email,
-      password: "qwe123",
       profile: { name: user.name }
     });
 
     if (user.roles.length > 0) {
       Roles.addUsersToRoles(id, user.roles);
+      if (user.roles.indexOf('admin') >= 0) {
+        Accounts.sendEnrollmentEmail(id, user.email)
+      }
     }
+
 
   });
 }

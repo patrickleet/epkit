@@ -2,6 +2,8 @@
   '/': {to: 'newPosts', as: 'home'},
   '/best': 'bestPosts',
   '/new': 'newPosts',
+
+  '/admin': 'admin',
   
   '/posts/:_id': {
     to: 'postPage', 

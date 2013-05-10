@@ -889,9 +889,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/includes/template.header.js?b9ec7b3804c716bfc5c28306f86e397778b250b9",
-      "size": 963,
-      "hash": "b9ec7b3804c716bfc5c28306f86e397778b250b9"
+      "url": "/client/views/includes/template.header.js?1c3ead67821582a3c4ee636886928c73f1e1084b",
+      "size": 1279,
+      "hash": "1c3ead67821582a3c4ee636886928c73f1e1084b"
     },
     {
       "path": "static_cacheable/client/views/includes/template.loading.js",
@@ -1069,9 +1069,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/helpers/config.js?1f90d51e6ab9a5f23d211a14f7ee38a43115dd4c",
-      "size": 93,
-      "hash": "1f90d51e6ab9a5f23d211a14f7ee38a43115dd4c"
+      "url": "/client/helpers/config.js?447669badf20b1b2b20c0e471ccb5a3e7e20d16d",
+      "size": 90,
+      "hash": "447669badf20b1b2b20c0e471ccb5a3e7e20d16d"
     },
     {
       "path": "static_cacheable/client/helpers/errors.js",
@@ -1096,9 +1096,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/helpers/router.js?e3949acb257832d044c899c667519cf7b6659376",
-      "size": 768,
-      "hash": "e3949acb257832d044c899c667519cf7b6659376"
+      "url": "/client/helpers/router.js?89184bb7466c73bd2fa76f09d9725d9cdc52430e",
+      "size": 790,
+      "hash": "89184bb7466c73bd2fa76f09d9725d9cdc52430e"
     },
     {
       "path": "static_cacheable/collections/comments.js",
@@ -1211,7 +1211,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "755cb14a0cc66244b944059fee463e3e079aeea0"
+      "hash": "cfce3f401237808c73f7bcf223ed9cb00512c66e"
     }
   ]
 }
