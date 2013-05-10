@@ -10,4 +10,4 @@
     return active && 'active';
   }
 });
-})();
+}).call(this);

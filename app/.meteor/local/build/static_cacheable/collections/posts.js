@@ -61,4 +61,4 @@ Meteor.methods({
     });
   }
 });
-})();
+}).call(this);

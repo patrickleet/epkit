@@ -306,4 +306,4 @@ _.extend(Deps, {
   }
 });
 
-})();
+}).call(this);

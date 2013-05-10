@@ -300,4 +300,4 @@ LocalCollection._modifiers = {
   }
 };
 
-})();
+}).call(this);

@@ -10,4 +10,4 @@ Template.error.rendered = function() {
     Errors.update(error._id, {$set: {seen: true}});
   });
 };
-})();
+}).call(this);

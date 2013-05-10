@@ -9,4 +9,4 @@ Meteor.autorun(function() {
 
 Meteor.subscribe('notifications');
 
-})();
+}).call(this);

@@ -52,4 +52,4 @@ Accounts.ui._passwordSignupFields = function () {
 };
 
 
-})();
+}).call(this);

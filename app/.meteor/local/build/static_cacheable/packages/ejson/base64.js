@@ -122,4 +122,4 @@ EJSON._base64Decode = function (str) {
   return arr;
 };
 
-})();
+}).call(this);

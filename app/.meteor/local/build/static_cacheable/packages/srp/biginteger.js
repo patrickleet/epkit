@@ -1278,4 +1278,4 @@ BigInteger.prototype.isProbablePrime = bnIsProbablePrime;
 return BigInteger;
 })();
 
-})();
+}).call(this);

@@ -250,4 +250,4 @@ _.extend(UniversalEventListener.prototype, {
   }
 });
 
-})();
+}).call(this);

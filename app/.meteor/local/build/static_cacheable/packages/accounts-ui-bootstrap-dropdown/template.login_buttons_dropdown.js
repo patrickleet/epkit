@@ -9,4 +9,4 @@ Meteor._def_template("_loginButtonsBackToLoginLink",Handlebars.json_ast_to_func(
 Meteor._def_template("_loginButtonsFormField",Handlebars.json_ast_to_func([["#",[[0,"if"],[0,"visible"]],["\n    <label id=\"login-",["{",[[0,"fieldName"]]],"-label\" for=\"login-",["{",[[0,"fieldName"]]],"\">",["{",[[0,"fieldLabel"]]],"</label>\n    <input id=\"login-",["{",[[0,"fieldName"]]],"\" type=\"",["{",[[0,"inputType"]]],"\" />\n  "]]]));
 Meteor._def_template("_loginButtonsChangePassword",Handlebars.json_ast_to_func([["#",[[0,"each"],[0,"fields"]],["\n    ",[">","_loginButtonsFormField"],"\n  "]],"\n  ",[">","_loginButtonsMessages"],"\n  <button class=\"btn btn-primary\" id=\"login-buttons-do-change-password\">Change password</button>\n  <button class=\"btn login-close\">Close</button>"]));
 
-})();
+}).call(this);

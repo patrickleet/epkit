@@ -203,4 +203,4 @@ Meteor._def_template = function (name, raw_func) {
   return partial;
 };
 
-})();
+}).call(this);

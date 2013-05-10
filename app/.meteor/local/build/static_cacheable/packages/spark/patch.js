@@ -572,4 +572,4 @@ Spark._Patcher._copyAttributes = function(tgt, src) {
   }
 };
 
-})();
+}).call(this);

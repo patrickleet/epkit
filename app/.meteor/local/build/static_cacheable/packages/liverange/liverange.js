@@ -682,4 +682,4 @@ var enclosingRangeSearch = function(tag, end, endIndex) {
   return null;
 };
 
-})();
+}).call(this);

@@ -20,4 +20,4 @@ Meteor.renderList = function (cursor, itemFunc, elseFunc) {
   });
 };
 
-})();
+}).call(this);

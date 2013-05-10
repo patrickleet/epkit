@@ -146,4 +146,4 @@ function SHA256(s){
 return SHA256;
 })();
 
-})();
+}).call(this);

@@ -6,4 +6,4 @@
     return n + ' ' + thing + 's';
   }
 });
-})();
+}).call(this);

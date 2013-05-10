@@ -209,4 +209,4 @@ LocalCollection._diffObjects = function (left, right, callbacks) {
   }
 };
 
-})();
+}).call(this);

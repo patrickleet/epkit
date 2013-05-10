@@ -38,4 +38,4 @@ Meteor.startup = function (cb) {
   }
 };
 
-})();
+}).call(this);

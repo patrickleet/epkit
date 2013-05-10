@@ -175,4 +175,4 @@
   Meteor.Router = new Router();
   Meteor.startup(function() { page(); });
 }());
-})();
+}).call(this);

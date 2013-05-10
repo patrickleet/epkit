@@ -6,4 +6,4 @@
     return Comments.find({postId: this._id});
   }
 });
-})();
+}).call(this);

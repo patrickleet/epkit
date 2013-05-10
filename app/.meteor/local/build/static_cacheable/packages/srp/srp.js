@@ -333,4 +333,4 @@ var randInt = function () {
   return new Meteor._srp.BigInteger(Random.hexString(36), 16);
 };
 
-})();
+}).call(this);

@@ -20,4 +20,4 @@
   var target = document.getElementById('spinner');
   var spinner = new Spinner(opts).spin(target);
 }
-})();
+}).call(this);

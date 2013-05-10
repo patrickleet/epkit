@@ -59,4 +59,4 @@ Meteor._suppress_log = function (count) {
   suppress += count;
 };
 
-})();
+}).call(this);

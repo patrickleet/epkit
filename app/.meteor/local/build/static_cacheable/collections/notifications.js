@@ -14,4 +14,4 @@ createCommentNotification = function(comment) {
     read: false
   });
 };
-})();
+}).call(this);

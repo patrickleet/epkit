@@ -36,4 +36,4 @@ Meteor.uuid = function () {
   return uuid;
 };
 
-})();
+}).call(this);

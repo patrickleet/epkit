@@ -36,4 +36,4 @@ Template.postEdit.events({
   }
 });
 
-})();
+}).call(this);

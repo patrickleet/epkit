@@ -208,4 +208,4 @@ _.extend(OrderedDict.prototype, {
 });
 OrderedDict.BREAK = {"break": true};
 
-})();
+}).call(this);

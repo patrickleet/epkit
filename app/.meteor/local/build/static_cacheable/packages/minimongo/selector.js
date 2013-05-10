@@ -689,4 +689,4 @@ LocalCollection._compileSort = function (spec) {
   };
 };
 
-})();
+}).call(this);

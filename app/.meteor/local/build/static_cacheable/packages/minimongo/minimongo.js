@@ -427,6 +427,8 @@ LocalCollection.prototype.insert = function (doc) {
     if (self.queries[qid])
       LocalCollection._recomputeResults(self.queries[qid]);
   });
+
+  return doc._id;
 };
 
 LocalCollection.prototype.remove = function (selector) {
@@ -947,4 +949,4 @@ LocalCollection._observeOrderedFromObserveChanges =
   return handle;
 };
 
-})();
+}).call(this);

@@ -18,4 +18,4 @@ _.extend(Meteor._LocalCollectionDriver.prototype, {
 // singleton
 Meteor._LocalCollectionDriver = new Meteor._LocalCollectionDriver;
 
-})();
+}).call(this);

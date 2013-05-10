@@ -5,4 +5,4 @@ Meteor._def_template("_loginButtonsMessages",Handlebars.json_ast_to_func([["#",[
 Meteor._def_template("_loginButtonsLoggingIn",Handlebars.json_ast_to_func([[">","_loginButtonsLoggingInPadding"],"\n  <div class=\"loading\">&nbsp;</div>\n  ",[">","_loginButtonsLoggingInPadding"]]));
 Meteor._def_template("_loginButtonsLoggingInPadding",Handlebars.json_ast_to_func([["#",[[0,"unless"],[0,"dropdown"]],["\n    ","\n    <div class=\"login-buttons-padding\">\n      <div class=\"login-button single-login-button\" style=\"visibility: hidden;\" id=\"login-buttons-logout\">&nbsp;</div>\n    </div>\n  "],["\n    ","\n    <div class=\"login-buttons-padding\" />\n  "]]]));
 
-})();
+}).call(this);

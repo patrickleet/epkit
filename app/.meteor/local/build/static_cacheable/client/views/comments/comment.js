@@ -3,4 +3,4 @@
     return new Date(this.submitted).toString();
   }
 });
-})();
+}).call(this);

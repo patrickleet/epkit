@@ -59,4 +59,4 @@ _.extend(Meteor, {
   }
 });
 
-})();
+}).call(this);

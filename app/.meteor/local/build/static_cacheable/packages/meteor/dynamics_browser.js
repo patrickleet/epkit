@@ -47,4 +47,4 @@ Meteor.bindEnvironment = function (func, onException, _this) {
   };
 };
 
-})();
+}).call(this);

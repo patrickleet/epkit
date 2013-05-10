@@ -2,4 +2,4 @@
 Meteor._def_template("_loginButtonsLoggingInSingleLoginButton",Handlebars.json_ast_to_func(["<div class=\"login-text-and-button\">\n    ",[">","_loginButtonsLoggingIn"],"\n  </div>"]));
 Meteor._def_template("_loginButtonsLoggedInSingleLogoutButton",Handlebars.json_ast_to_func(["<div class=\"login-text-and-button\">\n    <div class=\"login-display-name\">\n      ",["{",[[0,"displayName"]]],"\n    </div>\n    <div class=\"login-button single-login-button\" id=\"login-buttons-logout\">Sign Out</div>\n  </div>"]));
 
-})();
+}).call(this);

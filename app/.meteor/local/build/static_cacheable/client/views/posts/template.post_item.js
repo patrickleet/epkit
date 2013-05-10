@@ -1,3 +1,3 @@
 (function(){ Meteor._def_template("postItem",Handlebars.json_ast_to_func(["<div class=\"post\">\n    <a href=\"#\" class=\"upvote btn ",["{",[[0,"upvotedClass"]]],"\">⬆<a/>\n    <div class=\"post-content\">\n      <h3><a href=\"",["{",[[0,"url"]]],"\">",["{",[[0,"title"]]],"</a><span>",["{",[[0,"domain"]]],"</span></h3>\n      <p>\n        ",["{",[[0,"pluralize"],[0,"votes"],"Vote"]],",\n        submitted by ",["{",[[0,"author"]]],",\n        <a href=\"",["{",[[0,"postPagePath"],[0]]],"\">",["{",[[0,"pluralize"],[0,"commentsCount"],"comment"]],"</a>\n        ",["#",[[0,"if"],[0,"ownPost"]],["<a href=\"",["{",[[0,"postEditPath"],[0]]],"\">Edit</a>"]],"\n      </p>\n    </div>\n    <a href=\"",["{",[[0,"postPagePath"],[0]]],"\" class=\"discuss btn\">Discuss</a>\n  </div>"]));
 
-})();
+}).call(this);

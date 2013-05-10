@@ -110,7 +110,6 @@ Meteor.Collection = function (name, options) {
           return;
         } else if (msg.msg === 'added') {
           if (doc) {
-            debugger;
             throw new Error("Expected not to find a document already present for an add");
           }
           self._collection.insert(_.extend({_id: mongoId}, msg.fields));
@@ -521,7 +520,7 @@ Meteor.Collection.prototype._defineMutationMethods = function() {
             if (self._validators[method].allow.length === 0) {
               throw new Meteor.Error(
                 403, "Access denied. No allow validators set on restricted " +
-                  "collection.");
+                  "collection for method '" + method + "'.");
             }
 
             var validatedMethodName =
@@ -736,4 +735,4 @@ Meteor.Collection.prototype._validatedRemove = function(userId, selector) {
   self._collection.remove.call(self._collection, selector);
 };
 
-})();
+}).call(this);

@@ -58,4 +58,4 @@ Meteor.subscribeWithPagination = function (/*name, arguments, perPage */) {
   
   return handle;
 }
-})();
+}).call(this);

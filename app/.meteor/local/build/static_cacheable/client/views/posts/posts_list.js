@@ -42,4 +42,4 @@ Template.postsList.events({
   }
 });
 
-})();
+}).call(this);

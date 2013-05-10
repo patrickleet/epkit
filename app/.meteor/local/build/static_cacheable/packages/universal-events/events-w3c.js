@@ -204,4 +204,4 @@ _.extend(UniversalEventListener._impl.w3c.prototype, {
   }
 });
 
-})();
+}).call(this);

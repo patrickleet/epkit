@@ -149,4 +149,4 @@ Meteor._reload.reload = function () {
   tryReload();
 };
 
-})();
+}).call(this);

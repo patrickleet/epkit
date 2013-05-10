@@ -319,4 +319,4 @@ EJSON.clone = function (v) {
   return ret;
 };
 
-})();
+}).call(this);

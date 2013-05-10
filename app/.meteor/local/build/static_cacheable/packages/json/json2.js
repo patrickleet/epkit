@@ -485,4 +485,4 @@ if (typeof JSON !== 'object') {
     }
 }());
 
-})();
+}).call(this);

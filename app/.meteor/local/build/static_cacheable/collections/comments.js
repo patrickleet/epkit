@@ -32,4 +32,4 @@ Meteor.methods({
     return comment._id;
   }
 });
-})();
+}).call(this);

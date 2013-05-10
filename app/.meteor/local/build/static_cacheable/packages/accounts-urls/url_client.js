@@ -44,4 +44,4 @@ if (match) {
   window.location.hash = '';
 }
 
-})();
+}).call(this);

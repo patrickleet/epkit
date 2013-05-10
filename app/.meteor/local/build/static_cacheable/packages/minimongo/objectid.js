@@ -107,4 +107,4 @@ EJSON.addType("oid",  function (str) {
   return new LocalCollection._ObjectID(str);
 });
 
-})();
+}).call(this);

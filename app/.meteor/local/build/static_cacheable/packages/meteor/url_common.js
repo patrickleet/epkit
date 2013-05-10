@@ -11,6 +11,9 @@
   if (!url)
     throw new Error("Must pass options.rootUrl or set ROOT_URL in the server environment");
 
+  if (!/^http[s]?:\/\//i.test(url)) // url starts with 'http://' or 'https://'
+    url = 'http://' + url; // we will later fix to https if options.secure is set
+
   if (!/\/$/.test(url)) // url ends with '/'
     url += '/';
 
@@ -36,4 +39,4 @@ Meteor.absoluteUrl.defaultOptions = { };
 if (__meteor_runtime_config__ && __meteor_runtime_config__.ROOT_URL)
   Meteor.absoluteUrl.defaultOptions.rootUrl = __meteor_runtime_config__.ROOT_URL;
 
-})();
+}).call(this);

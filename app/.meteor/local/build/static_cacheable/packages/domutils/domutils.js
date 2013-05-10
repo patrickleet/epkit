@@ -552,4 +552,4 @@ DomUtils.getElementValue = function (node) {
   }
 };
 
-})();
+}).call(this);

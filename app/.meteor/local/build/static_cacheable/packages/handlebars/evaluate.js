@@ -375,4 +375,4 @@ Handlebars.SafeString.prototype.toString = function() {
   return this.string.toString();
 };
 
-})();
+}).call(this);

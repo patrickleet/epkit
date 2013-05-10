@@ -7,4 +7,4 @@ var selector = _.map(inputTags, function (t) {
 
 Spark._globalPreserves[selector] = Spark._labelFromIdOrName;
 
-})();
+}).call(this);

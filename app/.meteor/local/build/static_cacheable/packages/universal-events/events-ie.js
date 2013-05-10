@@ -161,4 +161,4 @@ _.extend(UniversalEventListener._impl.ie.prototype, {
 
 });
 
-})();
+}).call(this);

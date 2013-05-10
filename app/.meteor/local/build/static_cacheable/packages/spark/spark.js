@@ -884,7 +884,6 @@ var applyChanges = function (doc, changeFields) {
 
 
 var idStringify;
-var idParse;
 
 if (typeof LocalCollection !== 'undefined') {
   idStringify = function (id) {
@@ -1215,4 +1214,4 @@ Spark._getEnclosingLandmark = function (node) {
   return range ? range.landmark : null;
 };
 
-})();
+}).call(this);

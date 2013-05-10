@@ -135,4 +135,4 @@ Random.hexString = function (digits) {
   return hexDigits.join('');
 };
 
-})();
+}).call(this);
