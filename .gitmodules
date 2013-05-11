@@ -1,3 +1,6 @@
 [submodule "epkit-style"]
 	path = epkit-style
 	url = git@github.com:patrickleet/epkit-style.git
+[submodule "meteor-accounts-admin-ui"]
+	path = meteor-accounts-admin-ui
+	url = git@github.com:patrickleet/meteor-accounts-admin-ui.git
