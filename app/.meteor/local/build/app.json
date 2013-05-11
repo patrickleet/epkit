@@ -1021,6 +1021,15 @@
       "hash": "7d9ec0e080472667c05dd0356cb0cc15adafa7bf"
     },
     {
+      "path": "static_cacheable/client/lib/jquery.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/lib/jquery.js?083c0a53777b7513eacd17c6c311cef6d0d34933",
+      "size": 277739,
+      "hash": "083c0a53777b7513eacd17c6c311cef6d0d34933"
+    },
+    {
       "path": "static_cacheable/lib/permissions.js",
       "where": "client",
       "type": "js",
@@ -1266,7 +1275,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "3d92905552bd5e903c80405996e7e06adab0092f"
+      "hash": "f1e6bee51876d246c2c233251fccc46dc4a07a38"
     }
   ]
 }

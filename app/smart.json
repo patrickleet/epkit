@@ -9,6 +9,8 @@
     "accounts-ui-bootstrap-dropdown": {},
     "spin": {},
     "paginated-subscription": {},
-    "accounts-admin-ui": {}
+    "accounts-admin-ui": {
+      "git": "../meteor-accounts-admin-ui"
+    }
   }
 }
