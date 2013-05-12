@@ -10,7 +10,8 @@
       "accounts-ui-bootstrap-dropdown": {},
       "spin": {},
       "paginated-subscription": {},
-      "accounts-admin-ui": {}
+      "accounts-admin-ui": {},
+      "animate-css": {}
     },
     "packages": {
       "router": {
@@ -37,6 +38,11 @@
         "git": "https://github.com/kenyee/meteor-accounts-admin-ui.git",
         "tag": "v1.0.0",
         "commit": "5aa3a735beea628fe482194d9fa871222485226b"
+      },
+      "animate-css": {
+        "git": "https://github.com/nate-strauser/meteor-animate-css.git",
+        "tag": "v0.1.0",
+        "commit": "993c626b204e596c41cda63cb3fbb0ca3aa5deea"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",

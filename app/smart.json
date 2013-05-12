@@ -8,6 +8,7 @@
     "accounts-ui-bootstrap-dropdown": {},
     "spin": {},
     "paginated-subscription": {},
-    "accounts-admin-ui": {}
+    "accounts-admin-ui": {},
+    "animate-css": {}
   }
 }

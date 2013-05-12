@@ -15,7 +15,9 @@ Meteor.Router.add({
     and: function(id) { Session.set('currentPostId', id); }    
   },
   
-  '/submit': 'postSubmit'
+  '/submit': 'postSubmit',
+  '*': 'not_found'
+
 });
 
 Meteor.Router.filters({

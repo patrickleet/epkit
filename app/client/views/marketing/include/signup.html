@@ -6,9 +6,12 @@
           <p>Welcome to</p>
           <h1>Epkit</h1>
         </div>
-        <div class="span2" id="signup-buttons">
-          <input type="email" placeholder="Email">
-          <button class="btn btn-primary">Get Started</button>
+        <div class="span2 {{showSignUp}}" id="signup-buttons">
+          <input type="email" placeholder="Email" name="email">
+          <button class="btn btn-primary" id="#get-started">Get Started</button>
+        </div>
+        <div class="{{showConfirm}}">
+          <p>Click the link in the email to activate your account.</p>
         </div>
       </div>
     </div>

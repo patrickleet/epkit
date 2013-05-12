@@ -54,6 +54,7 @@
     "app/packages/roles/roles_server.js",
     "app/packages/roles/roles_common.js",
     "app/lib/permissions.js",
+    "app/collections/accounts.js",
     "app/collections/comments.js",
     "app/collections/notifications.js",
     "app/collections/posts.js",
@@ -860,9 +861,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/marketing/include/template.signup.js?1f938c1e1bdaf6a8e03bed8320e241ea9cd0d9ee",
-      "size": 557,
-      "hash": "1f938c1e1bdaf6a8e03bed8320e241ea9cd0d9ee"
+      "url": "/client/views/marketing/include/template.signup.js?6ba57998cae5369f682f654eab14aad859d2bfc6",
+      "size": 764,
+      "hash": "6ba57998cae5369f682f654eab14aad859d2bfc6"
     },
     {
       "path": "static_cacheable/client/views/comments/template.comment.js",
@@ -881,6 +882,15 @@
       "url": "/client/views/comments/template.comment_submit.js?61ecaea8d6015feb733528deab6f1d02035e12b5",
       "size": 536,
       "hash": "61ecaea8d6015feb733528deab6f1d02035e12b5"
+    },
+    {
+      "path": "static_cacheable/client/views/includes/template.404.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/includes/template.404.js?7d30824a14d3a1c4de8faca65552810d6d3afd81",
+      "size": 246,
+      "hash": "7d30824a14d3a1c4de8faca65552810d6d3afd81"
     },
     {
       "path": "static_cacheable/client/views/includes/template.access_denied.js",
@@ -1027,6 +1037,15 @@
       "hash": "66b3f266a97213bfcc016e946595123a9a6a69c9"
     },
     {
+      "path": "static_cacheable/client/views/marketing/include/signup.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/marketing/include/signup.js?49077644f6e5f27f18757d7adcc8a82fcc25ec82",
+      "size": 884,
+      "hash": "49077644f6e5f27f18757d7adcc8a82fcc25ec82"
+    },
+    {
       "path": "static_cacheable/client/views/comments/comment.js",
       "where": "client",
       "type": "js",
@@ -1148,9 +1167,18 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/helpers/router.js?e791d3d1e6a2389352009443646964648fb49b23",
-      "size": 1052,
-      "hash": "e791d3d1e6a2389352009443646964648fb49b23"
+      "url": "/client/helpers/router.js?2b8b33ccb0f0e74038dfeb72e68d1adecc7b6389",
+      "size": 1073,
+      "hash": "2b8b33ccb0f0e74038dfeb72e68d1adecc7b6389"
+    },
+    {
+      "path": "static_cacheable/collections/accounts.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/collections/accounts.js?eda50e521a48d04b0d32a2befec440db5404ae2c",
+      "size": 441,
+      "hash": "eda50e521a48d04b0d32a2befec440db5404ae2c"
     },
     {
       "path": "static_cacheable/collections/comments.js",
@@ -1198,6 +1226,15 @@
       "hash": "9f29802ea43b83a35ba6096af5e501ef4f81287f"
     },
     {
+      "path": "static_cacheable/packages/animate-css/lib/animate.css/animate.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/packages/animate-css/lib/animate.css/animate.css?b2699d681a19717e28982b1d927a31c89bf6e7fb",
+      "size": 61149,
+      "hash": "b2699d681a19717e28982b1d927a31c89bf6e7fb"
+    },
+    {
       "path": "static_cacheable/client/stylesheets/epkit.less.css",
       "where": "client",
       "type": "css",
@@ -1218,7 +1255,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "0fcd51a7f1d7097be204e885fa99f099073e9774"
+      "hash": "dcd91aab723c114be06fca8bd403e9d618217738"
     }
   ]
 }
