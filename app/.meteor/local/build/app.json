@@ -833,9 +833,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/includes/template.header.js?f5257a164190d59efb64f23f3b7862dd65053ab6",
-      "size": 1274,
-      "hash": "f5257a164190d59efb64f23f3b7862dd65053ab6"
+      "url": "/client/views/includes/template.header.js?435c9f171717a5e534b85f9bbb8d2966d1b19b12",
+      "size": 1241,
+      "hash": "435c9f171717a5e534b85f9bbb8d2966d1b19b12"
     },
     {
       "path": "static_cacheable/client/views/includes/template.loading.js",
@@ -919,51 +919,6 @@
       "hash": "7d9ec0e080472667c05dd0356cb0cc15adafa7bf"
     },
     {
-      "path": "static_cacheable/client/lib/bootstrap-affix.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-affix.js?3646c9b8491bd9c89e328466dc0c1cce59b99baf",
-      "size": 3512,
-      "hash": "3646c9b8491bd9c89e328466dc0c1cce59b99baf"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-alert.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-alert.js?9a654e8a3323fbea50cc7677b5bcced14cca8fa0",
-      "size": 2553,
-      "hash": "9a654e8a3323fbea50cc7677b5bcced14cca8fa0"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-button.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-button.js?b12b6c17d7fae4c148e8498731717d94a622a3de",
-      "size": 2870,
-      "hash": "b12b6c17d7fae4c148e8498731717d94a622a3de"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-carousel.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-carousel.js?92b1bd170c83d80e74f6fc031f1ae4ea0df811b7",
-      "size": 6086,
-      "hash": "92b1bd170c83d80e74f6fc031f1ae4ea0df811b7"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-collapse.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-collapse.js?b9ce6ab89dc4e78bff5c5e7e0c747fcdaa4654e3",
-      "size": 4764,
-      "hash": "b9ce6ab89dc4e78bff5c5e7e0c747fcdaa4654e3"
-    },
-    {
       "path": "static_cacheable/client/lib/bootstrap-dropdown.js",
       "where": "client",
       "type": "js",
@@ -980,60 +935,6 @@
       "url": "/client/lib/bootstrap-modal.js?149ed04db82fbe71bbad9d32691be0d03544d19e",
       "size": 6685,
       "hash": "149ed04db82fbe71bbad9d32691be0d03544d19e"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-popover.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-popover.js?ffb97fd23bc50286b91d33edd9207f5a6e0da434",
-      "size": 3144,
-      "hash": "ffb97fd23bc50286b91d33edd9207f5a6e0da434"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-scrollspy.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-scrollspy.js?f8842ef23a5f4c94381bc561f2ed5d2d4b588bd6",
-      "size": 4684,
-      "hash": "f8842ef23a5f4c94381bc561f2ed5d2d4b588bd6"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-tab.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-tab.js?a50c264e014f48730e1f0304908dfc8116e300d9",
-      "size": 3525,
-      "hash": "a50c264e014f48730e1f0304908dfc8116e300d9"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-tooltip.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-tooltip.js?639f010c379af1442023151ff9210d670450a452",
-      "size": 9940,
-      "hash": "639f010c379af1442023151ff9210d670450a452"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-transition.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-transition.js?f25b6fc40c6ae5a7e79476748a0611fa5643cb40",
-      "size": 1785,
-      "hash": "f25b6fc40c6ae5a7e79476748a0611fa5643cb40"
-    },
-    {
-      "path": "static_cacheable/client/lib/bootstrap-typeahead.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/lib/bootstrap-typeahead.js?3356b2704f86129238d668d6215f638fb248e729",
-      "size": 8349,
-      "hash": "3356b2704f86129238d668d6215f638fb248e729"
     },
     {
       "path": "static_cacheable/lib/permissions.js",
@@ -1236,7 +1137,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "6da0ae06613c34e4682cb6f3bb6e5a19362209c6"
+      "hash": "862ba6016d38935b387f526eed2c234d19451666"
     }
   ]
 }

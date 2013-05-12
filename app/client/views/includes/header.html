@@ -1,41 +1,40 @@
 <template name="header">
   <header class="navbar">
     <div class="navbar-inner">
-      <a class="brand" href="/">Epkit</a>
-      <ul class="nav">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="/">Epkit</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
 
-        {{#if isInRole 'admin'}}
-          <!--Admin Nav-->
-          <li class="{{activeRouteClass 'admin'}}">
-            <a href="/admin">Admin</a>
-          </li>
-        {{/if}}
+          {{#if isInRole 'admin'}}
+            <!--Admin Nav-->
+            <li class="{{activeRouteClass 'admin'}}">
+              <a href="/admin">Admin</a>
+            </li>
+          {{/if}}
 
-        <li class="{{activeRouteClass 'home' 'newPosts'}}">
-          <a href="{{homePath}}">New</a>
-        </li>
-        <li class="{{activeRouteClass 'bestPosts'}}">
-          <a href="{{bestPostsPath}}">Best</a>
-        </li>
+          {{#if currentUser}}
+            <!--logged in nav-->
 
-        {{#if currentUser}}
-          <!--logged in nav-->
+            <li class="dropdown">
+              {{> notifications}}
+            </li>
 
-          <li class="{{activeRouteClass 'postSubmit'}}">
-            <a href="/submit">Submit Post</a>
-          </li>
-
-          <li class="dropdown">
-            {{> notifications}}
-          </li>
-
-        {{else}}
-          <!--logged out nav-->
-        {{/if}}
-      </ul>
+          {{else}}
+            <!--logged out nav-->
+          {{/if}}
+        </ul>
+      </div>
       <ul class="nav pull-right">
         <li>{{loginButtons}}</li>
       </ul>
+
+      </div>
     </div>
   </header>
 </template>
