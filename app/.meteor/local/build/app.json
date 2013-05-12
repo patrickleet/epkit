@@ -53,9 +53,6 @@
     "app/packages/appcache/appcache-server.js",
     "app/packages/roles/roles_server.js",
     "app/packages/roles/roles_common.js",
-    "app/packages/accounts-admin-ui/common/user-helpers.js",
-    "app/packages/accounts-admin-ui/common/useradmin-collections.js",
-    "app/packages/accounts-admin-ui/methods/adminusermethods.js",
     "app/lib/permissions.js",
     "app/collections/comments.js",
     "app/collections/notifications.js",
@@ -796,103 +793,76 @@
       "hash": "1a3de1da90a565034076f403fca74b10555b22c2"
     },
     {
-      "path": "static_cacheable/packages/bootstrap/js/bootstrap.js",
+      "path": "static_cacheable/client/views/marketing/include/template.easyToUse.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/bootstrap/js/bootstrap.js?bbea08f3a73671df06303c26633d4695cc7a7c08",
-      "size": 61537,
-      "hash": "bbea08f3a73671df06303c26633d4695cc7a7c08"
+      "url": "/client/views/marketing/include/template.easyToUse.js?aebe2ca4f9aec1aae4985a46a1ffd8f22f38aad7",
+      "size": 539,
+      "hash": "aebe2ca4f9aec1aae4985a46a1ffd8f22f38aad7"
     },
     {
-      "path": "static_cacheable/packages/accounts-admin-ui/common/user-helpers.js",
+      "path": "static_cacheable/client/views/marketing/include/template.engageYourFanbase.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/accounts-admin-ui/common/user-helpers.js?39c8d0faa1fe78af4bf2c7773673241988039495",
-      "size": 1228,
-      "hash": "39c8d0faa1fe78af4bf2c7773673241988039495"
+      "url": "/client/views/marketing/include/template.engageYourFanbase.js?325988975a1eec133bbd35b5f85c679375866ac6",
+      "size": 399,
+      "hash": "325988975a1eec133bbd35b5f85c679375866ac6"
     },
     {
-      "path": "static_cacheable/packages/accounts-admin-ui/common/useradmin-collections.js",
+      "path": "static_cacheable/client/views/marketing/include/template.getLegit.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/accounts-admin-ui/common/useradmin-collections.js?a438fe4190967a6be3d7d8396f61aa5d241694c2",
-      "size": 1139,
-      "hash": "a438fe4190967a6be3d7d8396f61aa5d241694c2"
+      "url": "/client/views/marketing/include/template.getLegit.js?3f5e0fe63b9ada5e311d14fc3c77a06305495087",
+      "size": 243,
+      "hash": "3f5e0fe63b9ada5e311d14fc3c77a06305495087"
     },
     {
-      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/template.deleteuser.js",
+      "path": "static_cacheable/client/views/marketing/include/template.marketingFooter.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/accounts-admin-ui/dialogs/template.deleteuser.js?a5bdaae59389687f90807e8c56bbb03027c40ff9",
-      "size": 599,
-      "hash": "a5bdaae59389687f90807e8c56bbb03027c40ff9"
+      "url": "/client/views/marketing/include/template.marketingFooter.js?83f6a907e481ef8a77ebd0705118924fe0874240",
+      "size": 706,
+      "hash": "83f6a907e481ef8a77ebd0705118924fe0874240"
     },
     {
-      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/deleteuser.js",
+      "path": "static_cacheable/client/views/marketing/include/template.modern.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/accounts-admin-ui/dialogs/deleteuser.js?bf7426509149e596552654c9a4b64e08e860e33f",
-      "size": 1238,
-      "hash": "bf7426509149e596552654c9a4b64e08e860e33f"
+      "url": "/client/views/marketing/include/template.modern.js?54de0e69a2d32826bd5be2701d889f5ba22bf225",
+      "size": 559,
+      "hash": "54de0e69a2d32826bd5be2701d889f5ba22bf225"
     },
     {
-      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/template.edituser.js",
+      "path": "static_cacheable/client/views/marketing/include/template.quickSetup.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/accounts-admin-ui/dialogs/template.edituser.js?93e83b38edd0474806852186401a234b1e1fa65b",
-      "size": 1313,
-      "hash": "93e83b38edd0474806852186401a234b1e1fa65b"
+      "url": "/client/views/marketing/include/template.quickSetup.js?a1facca7a68e78d84988fd7a8f4b976f5e3fc043",
+      "size": 312,
+      "hash": "a1facca7a68e78d84988fd7a8f4b976f5e3fc043"
     },
     {
-      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/edituser.js",
+      "path": "static_cacheable/client/views/marketing/include/template.responsiveDesign.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/accounts-admin-ui/dialogs/edituser.js?6e55e8559ae2e474ce0ad52165253d7824776388",
-      "size": 2109,
-      "hash": "6e55e8559ae2e474ce0ad52165253d7824776388"
+      "url": "/client/views/marketing/include/template.responsiveDesign.js?6eef2e5fdc6d462da2ffa08cabd7af205cb5af0d",
+      "size": 370,
+      "hash": "6eef2e5fdc6d462da2ffa08cabd7af205cb5af0d"
     },
     {
-      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/template.infouser.js",
+      "path": "static_cacheable/client/views/marketing/include/template.signup.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/accounts-admin-ui/dialogs/template.infouser.js?b02d7362804ade1d717aa3b7b123d24b5ef54446",
-      "size": 938,
-      "hash": "b02d7362804ade1d717aa3b7b123d24b5ef54446"
-    },
-    {
-      "path": "static_cacheable/packages/accounts-admin-ui/dialogs/infouser.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/accounts-admin-ui/dialogs/infouser.js?a888be98a99baed4f20b6ccc378d716365b133cf",
-      "size": 855,
-      "hash": "a888be98a99baed4f20b6ccc378d716365b133cf"
-    },
-    {
-      "path": "static_cacheable/packages/accounts-admin-ui/templates/template.adminusers.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/accounts-admin-ui/templates/template.adminusers.js?1b596a51dca571a79d6e6fbe39470a2f192ea63f",
-      "size": 1879,
-      "hash": "1b596a51dca571a79d6e6fbe39470a2f192ea63f"
-    },
-    {
-      "path": "static_cacheable/packages/accounts-admin-ui/templates/adminusers.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/accounts-admin-ui/templates/adminusers.js?8b53110f698bdf27a0ac8bfdbb302335802f2d54",
-      "size": 2758,
-      "hash": "8b53110f698bdf27a0ac8bfdbb302335802f2d54"
+      "url": "/client/views/marketing/include/template.signup.js?1f938c1e1bdaf6a8e03bed8320e241ea9cd0d9ee",
+      "size": 557,
+      "hash": "1f938c1e1bdaf6a8e03bed8320e241ea9cd0d9ee"
     },
     {
       "path": "static_cacheable/client/views/comments/template.comment.js",
@@ -935,9 +905,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/includes/template.header.js?435c9f171717a5e534b85f9bbb8d2966d1b19b12",
-      "size": 1241,
-      "hash": "435c9f171717a5e534b85f9bbb8d2966d1b19b12"
+      "url": "/client/views/includes/template.header.js?b001f1ea6f82f51a13f86341f81a04e68ed97c68",
+      "size": 1258,
+      "hash": "b001f1ea6f82f51a13f86341f81a04e68ed97c68"
     },
     {
       "path": "static_cacheable/client/views/includes/template.loading.js",
@@ -947,6 +917,15 @@
       "url": "/client/views/includes/template.loading.js?659104b242c40e96aaaf108494b23504ddb3dc5a",
       "size": 109,
       "hash": "659104b242c40e96aaaf108494b23504ddb3dc5a"
+    },
+    {
+      "path": "static_cacheable/client/views/marketing/template.marketing.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/marketing/template.marketing.js?d8482c91045eae6eb144b142f7cfd83f8f57e6e5",
+      "size": 364,
+      "hash": "d8482c91045eae6eb144b142f7cfd83f8f57e6e5"
     },
     {
       "path": "static_cacheable/client/views/notifications/template.notifications.js",
@@ -1016,9 +995,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/template.main.js?7d9ec0e080472667c05dd0356cb0cc15adafa7bf",
-      "size": 334,
-      "hash": "7d9ec0e080472667c05dd0356cb0cc15adafa7bf"
+      "url": "/client/template.main.js?facf3a14d7ee3d0a19f87408e31ddd9ebd6080d4",
+      "size": 470,
+      "hash": "facf3a14d7ee3d0a19f87408e31ddd9ebd6080d4"
     },
     {
       "path": "static_cacheable/client/lib/bootstrap-dropdown.js",
@@ -1169,9 +1148,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/helpers/router.js?a1a6837e519966deb4bdef82b9f9f09945b3b153",
-      "size": 814,
-      "hash": "a1a6837e519966deb4bdef82b9f9f09945b3b153"
+      "url": "/client/helpers/router.js?e791d3d1e6a2389352009443646964648fb49b23",
+      "size": 1052,
+      "hash": "e791d3d1e6a2389352009443646964648fb49b23"
     },
     {
       "path": "static_cacheable/collections/comments.js",
@@ -1219,72 +1198,27 @@
       "hash": "9f29802ea43b83a35ba6096af5e501ef4f81287f"
     },
     {
-      "path": "static_cacheable/packages/bootstrap/css/bootstrap.css",
+      "path": "static_cacheable/client/stylesheets/epkit.less.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/packages/bootstrap/css/bootstrap.css?e5976308949024b827360231c67b6f50ee1cf8c5",
-      "size": 127247,
-      "hash": "e5976308949024b827360231c67b6f50ee1cf8c5"
-    },
-    {
-      "path": "static_cacheable/packages/bootstrap/css/bootstrap-responsive.css",
-      "where": "client",
-      "type": "css",
-      "cacheable": true,
-      "url": "/packages/bootstrap/css/bootstrap-responsive.css?b66c9c5bfb9556bf343298e3fe6e49c39db8c222",
-      "size": 22111,
-      "hash": "b66c9c5bfb9556bf343298e3fe6e49c39db8c222"
-    },
-    {
-      "path": "static_cacheable/packages/bootstrap/css/bootstrap-override.css",
-      "where": "client",
-      "type": "css",
-      "cacheable": true,
-      "url": "/packages/bootstrap/css/bootstrap-override.css?15fa5b55da5c16ed92ffe0c85c0d6aa0867b9c7f",
-      "size": 1550,
-      "hash": "15fa5b55da5c16ed92ffe0c85c0d6aa0867b9c7f"
-    },
-    {
-      "path": "static_cacheable/client/stylesheets/epkit-bootstrap.less.css",
-      "where": "client",
-      "type": "css",
-      "cacheable": true,
-      "url": "/client/stylesheets/epkit-bootstrap.less.css?d1603865a9d7819b051de407b93d130ff983b983",
-      "size": 143430,
-      "hash": "d1603865a9d7819b051de407b93d130ff983b983"
+      "url": "/client/stylesheets/epkit.less.css?e04b581b5ccd0ec254ded80f9c126600279cc208",
+      "size": 142833,
+      "hash": "e04b581b5ccd0ec254ded80f9c126600279cc208"
     },
     {
       "path": "static_cacheable/client/stylesheets/style.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/client/stylesheets/style.css?71fffcf7c06b882047ffbe5ab00e7f3993291dc9",
-      "size": 2624,
-      "hash": "71fffcf7c06b882047ffbe5ab00e7f3993291dc9"
-    },
-    {
-      "path": "static/packages/bootstrap/img/glyphicons-halflings.png",
-      "where": "client",
-      "type": "static",
-      "cacheable": false,
-      "url": "/packages/bootstrap/img/glyphicons-halflings.png",
-      "size": 12799,
-      "hash": "84f613631b07d4fe22acbab50e551c0fe04bd78b"
-    },
-    {
-      "path": "static/packages/bootstrap/img/glyphicons-halflings-white.png",
-      "where": "client",
-      "type": "static",
-      "cacheable": false,
-      "url": "/packages/bootstrap/img/glyphicons-halflings-white.png",
-      "size": 8777,
-      "hash": "a25c4705320fd63c33790e666872910e702b9bf6"
+      "url": "/client/stylesheets/style.css?68b05e9464e721c26a611e9ae5f6be6de760dee2",
+      "size": 2140,
+      "hash": "68b05e9464e721c26a611e9ae5f6be6de760dee2"
     },
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "18c2e71e01ebdc49d7dca9fce81393c6809eb8a6"
+      "hash": "0fcd51a7f1d7097be204e885fa99f099073e9774"
     }
   ]
 }

@@ -1,5 +1,5 @@
 Meteor.Router.add({
-  '/': {to: 'newPosts', as: 'home'},
+  '/': {to: 'home', as: 'home'},
   '/best': 'bestPosts',
   '/new': 'newPosts',
 
@@ -19,6 +19,16 @@ Meteor.Router.add({
 });
 
 Meteor.Router.filters({
+  'marketingIfLoggedOut': function(page) {
+    if (Meteor.user())
+      return page;
+    else if (Meteor.loggingIn())
+      return 'loading'
+    else
+      return 'marketing'
+
+  },
+
   'requireLogin': function(page) {
     if (Meteor.user())
       return page;
@@ -27,11 +37,13 @@ Meteor.Router.filters({
     else
       return 'accessDenied';
   },
+
   'clearErrors': function(page) {
     clearErrors();
     return page;
   }
 });
 
-Meteor.Router.filter('requireLogin', {only: 'postSubmit'});
+Meteor.Router.filter('marketingIfLoggedOut')
+Meteor.Router.filter('requireLogin', {only: ['postSubmit', 'postEdit']});
 Meteor.Router.filter('clearErrors');
