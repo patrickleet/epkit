@@ -18,6 +18,11 @@ Template.signup.events({
       roles: ['unpaid', 'beta']
     }
 
+//    if isSimulation
+    // showConfirm
+    //else
+      // method?
+
     Meteor.call('signup', user, function(error) {
       if (error) {
         // display the error to the user
