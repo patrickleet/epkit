@@ -1,22 +1,20 @@
 Template.signup.helpers({
   showSignUp: function() {
     return !Session.equals("showConfirmIsVisible", true) ?
-      "fadeInUp" : "rollOut hidden";
+      "fadeInUp span2" : "rollOut hidden";
   },
   showConfirm: function() {
     return Session.equals("showConfirmIsVisible", true) ?
-      "fadeInUp" : "rollOut hidden";
+      "fadeInUp span4" : "rollOut hidden";
   }
 });
 
 Template.signup.events({
-  'click button.btn-primary': function(e) {
-    var email, user;
-
-    user = {
-      email: $(e.target).find('[name=email]').val(),
-      roles: ['unpaid', 'beta']
-    }
+  'submit form': function(e, tmpl) {
+    var user, form;
+    e.preventDefault();
+    form = e.currentTarget;
+    user = parseForm(form);
 
     Meteor.call('signup', user, function(error) {
       if (error) {

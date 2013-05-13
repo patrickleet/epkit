@@ -862,9 +862,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/marketing/include/template.signup.js?6e59d468223710f3bf08fbd758a96ce35eed561c",
-      "size": 903,
-      "hash": "6e59d468223710f3bf08fbd758a96ce35eed561c"
+      "url": "/client/views/marketing/include/template.signup.js?097768a59bdf2a467dccff0bd74475911c14ff10",
+      "size": 893,
+      "hash": "097768a59bdf2a467dccff0bd74475911c14ff10"
     },
     {
       "path": "static_cacheable/client/views/comments/template.comment.js",
@@ -1051,9 +1051,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/marketing/include/signup.js?1bbd19fffb85e7cb0333f48318d8c66e9f3db260",
-      "size": 899,
-      "hash": "1bbd19fffb85e7cb0333f48318d8c66e9f3db260"
+      "url": "/client/views/marketing/include/signup.js?24bdc491da775649b135d06ebb2ad62fb9dac25b",
+      "size": 878,
+      "hash": "24bdc491da775649b135d06ebb2ad62fb9dac25b"
     },
     {
       "path": "static_cacheable/client/views/comments/comment.js",
@@ -1265,7 +1265,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "1c0f1a39e794a03716c6a7fdf84bf29c21061e4f"
+      "hash": "6cafa6bdc845261e3505b94081baa7855e81cf25"
     }
   ]
 }
