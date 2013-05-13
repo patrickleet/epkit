@@ -1,13 +1,13 @@
 Template.signup.helpers({
   showSignUp: function() {
-    return !Session.equals("showConfirm", true) ?
-      "fadeInUp" : "rollOut invisible";
+    return !Session.equals("showConfirmIsVisible", true) ?
+      "fadeInUp" : "rollOut hidden";
   },
   showConfirm: function() {
-    return Session.equals("showConfirm", true) ?
-      "fadeInUp" : "rollOut invisible";
+    return Session.equals("showConfirmIsVisible", true) ?
+      "fadeInUp" : "rollOut hidden";
   }
-})
+});
 
 Template.signup.events({
   'click button.btn-primary': function(e) {
@@ -18,11 +18,6 @@ Template.signup.events({
       roles: ['unpaid', 'beta']
     }
 
-//    if isSimulation
-    // showConfirm
-    //else
-      // method?
-
     Meteor.call('signup', user, function(error) {
       if (error) {
         // display the error to the user
@@ -32,7 +27,7 @@ Template.signup.events({
         if (error.error === 302)
           Meteor.Router.to('home', error.details)
       } else {
-        Meteor.Session.set("showConfirm", true);
+        Session.set("showConfirmIsVisible", true);
       }
     });
 

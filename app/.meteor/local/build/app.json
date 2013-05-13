@@ -862,9 +862,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/marketing/include/template.signup.js?6ba57998cae5369f682f654eab14aad859d2bfc6",
-      "size": 764,
-      "hash": "6ba57998cae5369f682f654eab14aad859d2bfc6"
+      "url": "/client/views/marketing/include/template.signup.js?6e59d468223710f3bf08fbd758a96ce35eed561c",
+      "size": 903,
+      "hash": "6e59d468223710f3bf08fbd758a96ce35eed561c"
     },
     {
       "path": "static_cacheable/client/views/comments/template.comment.js",
@@ -1051,9 +1051,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/marketing/include/signup.js?f52168c592f1fb9b6336c5befca9bb2720b3c5ba",
-      "size": 954,
-      "hash": "f52168c592f1fb9b6336c5befca9bb2720b3c5ba"
+      "url": "/client/views/marketing/include/signup.js?1bbd19fffb85e7cb0333f48318d8c66e9f3db260",
+      "size": 899,
+      "hash": "1bbd19fffb85e7cb0333f48318d8c66e9f3db260"
     },
     {
       "path": "static_cacheable/client/views/comments/comment.js",
@@ -1186,9 +1186,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/collections/accounts.js?eda50e521a48d04b0d32a2befec440db5404ae2c",
-      "size": 441,
-      "hash": "eda50e521a48d04b0d32a2befec440db5404ae2c"
+      "url": "/collections/accounts.js?7aac2f1abb924c8961a20334786d88cc89453e71",
+      "size": 460,
+      "hash": "7aac2f1abb924c8961a20334786d88cc89453e71"
     },
     {
       "path": "static_cacheable/collections/comments.js",
@@ -1249,9 +1249,9 @@
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/client/stylesheets/epkit.less.css?e04b581b5ccd0ec254ded80f9c126600279cc208",
-      "size": 142833,
-      "hash": "e04b581b5ccd0ec254ded80f9c126600279cc208"
+      "url": "/client/stylesheets/epkit.less.css?f326d2dc58c37ba9ca6d5905d7ecf5c725e676a1",
+      "size": 142872,
+      "hash": "f326d2dc58c37ba9ca6d5905d7ecf5c725e676a1"
     },
     {
       "path": "static_cacheable/client/stylesheets/style.css",
@@ -1265,7 +1265,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "ec7fd0f92dadb74ab175c87564f01dbead5a5988"
+      "hash": "1c0f1a39e794a03716c6a7fdf84bf29c21061e4f"
     }
   ]
 }
