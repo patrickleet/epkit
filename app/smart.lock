@@ -6,19 +6,16 @@
   },
   "dependencies": {
     "basePackages": {
-      "bootstrap-updated": {},
       "router": {},
       "accounts-ui-bootstrap-dropdown": {},
       "spin": {},
       "paginated-subscription": {},
-      "accounts-admin-ui": {}
+      "accounts-admin-ui": {},
+      "animate-css": {},
+      "cluster": {},
+      "loadpicker": {}
     },
     "packages": {
-      "bootstrap-updated": {
-        "git": "https://github.com/Charuru/bootstrap-updated.git",
-        "tag": "v1.0.1",
-        "commit": "bdd5fcc8e134e62bcbb9d11aad8270534ffb6493"
-      },
       "router": {
         "git": "https://github.com/tmeasday/meteor-router.git",
         "tag": "v0.5.1",
@@ -43,6 +40,21 @@
         "git": "https://github.com/kenyee/meteor-accounts-admin-ui.git",
         "tag": "v1.0.0",
         "commit": "5aa3a735beea628fe482194d9fa871222485226b"
+      },
+      "animate-css": {
+        "git": "https://github.com/nate-strauser/meteor-animate-css.git",
+        "tag": "v0.1.0",
+        "commit": "993c626b204e596c41cda63cb3fbb0ca3aa5deea"
+      },
+      "cluster": {
+        "git": "https://github.com/arunoda/meteor-cluster.git",
+        "tag": "v0.1.0",
+        "commit": "e952d653d28464d977919560094ee1242ea8bd31"
+      },
+      "loadpicker": {
+        "git": "https://github.com/guido4000/loadpicker.git",
+        "tag": "v1.0.0",
+        "commit": "9f8aa83427b21e2d6279db3f018900bf09560352"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
