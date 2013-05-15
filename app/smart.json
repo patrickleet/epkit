@@ -9,6 +9,8 @@
     "spin": {},
     "paginated-subscription": {},
     "accounts-admin-ui": {},
-    "animate-css": {}
+    "animate-css": {},
+    "cluster": {},
+    "loadpicker": {}
   }
 }

@@ -1,5 +1,5 @@
 Meteor.Router.add({
-  '/': {to: 'home', as: 'home'},
+  '/': {to: 'postSubmit', as: 'home'},
   '/best': 'bestPosts',
   '/new': 'newPosts',
 

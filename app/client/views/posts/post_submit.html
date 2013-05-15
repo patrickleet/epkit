@@ -1,6 +1,13 @@
 <template name="postSubmit">
   <form class="main">
     <div class="control-group">
+      <label class="control-label" for="content">Upload your content</label>
+      <div class="controls">
+        <div id="constructed-widget" value="empty" type="filepicker-dragdrop" style="display: none;"> </div>
+      </div>
+    </div>
+
+    <div class="control-group">
         <label class="control-label" for="url">URL</label>
         <div class="controls">
             <input name="url" type="text" value="" placeholder="Your URL"/>
