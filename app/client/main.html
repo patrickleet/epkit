@@ -2,11 +2,16 @@
   <title>Microscope</title>
 </head>
 <body>
+  {{> header}}
+  {{#if currentUser}}
   <div class="container">
-    {{> header}}
+
     {{> errors}}
     <div id="main" class="row-fluid">
-      {{renderPage}}
+      {{#isolate}}{{renderPage}}{{/isolate}}
     </div>
   </div>
+  {{else}}
+    {{#isolate}}{{renderPage}}{{/isolate}}
+  {{/if}}
 </body>

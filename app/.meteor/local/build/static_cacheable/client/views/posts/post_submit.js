@@ -1,4 +1,19 @@
-(function(){ Template.postSubmit.events({
+(function(){ if (Meteor.isClient) {
+  Session.set("widgetSet", false);
+  var key = "AY3rsxrO3RZqrOU3F0sPSz";
+
+  Template.postSubmit.rendered = function () {
+    if (!Session.get("widgetSet")) {
+      var cb = function () {
+        filepicker.constructWidget(document.getElementById('constructed-widget'));
+      };
+      loadPicker(key, cb);
+    }
+  }
+};
+
+
+Template.postSubmit.events({
   'submit form': function(event) {
     event.preventDefault();
     

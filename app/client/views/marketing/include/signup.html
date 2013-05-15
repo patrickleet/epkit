@@ -1,0 +1,24 @@
+<template name="signup">
+  <section class="jumbotron subhead no-bg" id="signup">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span2 offset3">
+          <p>Welcome to</p>
+          <h1>Epkit</h1>
+        </div>
+        <div class="{{showSignUp}}">
+          <form id="signup-buttons">
+            <input type="email" placeholder="Email" name="email">
+            <button class="btn btn-primary" id="#get-started">Sign up for beta</button>
+          </form>
+        </div>
+        <div class="{{showConfirm}}" id="thanks">
+          <div id="thanks">
+            <p>Thanks for signing up.</p>
+            <p>Keep an eye out for an invitation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
